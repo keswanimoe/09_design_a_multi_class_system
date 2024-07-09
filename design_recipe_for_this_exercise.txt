@@ -1,0 +1,52 @@
+Diary 
+- diary
+- to_do_list
+- contacts
+record my experiences
+- add(diary_entry)
+reflect on my exeperiences
+- all()
+select based on how much time i have and my reading speed
+- filter(minutes, reading_speed)
+
+Todo
+- mark_complete()
+
+TodoList
+- add()
+- mark_complete()
+- complete()
+- giveup()
+
+Contact
+- mobile_number
+
+I want to see a list of all of the mobile phone numbers in all my diary entries
+- IN all diary entries => put this at the top of each entry
+
+Contacts
+- add()
+- delete()
+
+_______________________________________________________
+
+Diary 
+> Contacts 
+> Entries
+> To do list
+
+filter Entries by time and reading_speed
+                  
+--------------------------
+
+           add()
+Contacts --------- > Contact
+|                     mobile_no
+|
+|list contacts
+|
+|         add()
+Entries -----------> Entry
+                     
+To do list ---------> Task
+                      mark_complete
