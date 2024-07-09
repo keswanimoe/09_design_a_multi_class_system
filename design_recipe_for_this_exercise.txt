@@ -30,10 +30,9 @@ Contacts
 
 _______________________________________________________
 
-Diary 
-> Contacts 
-> Entries
-> To do list
+Diary > Entries < Contacts 
+      > To do list
+
 
 filter Entries by time and reading_speed
                   
