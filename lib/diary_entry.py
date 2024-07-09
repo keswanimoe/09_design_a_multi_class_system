@@ -6,3 +6,6 @@ class DiaryEntry:
 
     def format(self):
         return f"{self.title}: {self.contents}" 
+    
+    def count_words(self):
+        return len(self.contents.split(" "))

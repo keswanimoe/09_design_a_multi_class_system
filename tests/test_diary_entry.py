@@ -22,3 +22,11 @@ def test_returns_formatted_diary_entry():
     expected = "My Title: These are the contents"
     
     assert actual == expected
+
+def test_returns_contents_word_count():
+    entry = DiaryEntry('My Title', 'These are the contents')
+    actual = entry.count_words()
+    expected = 4
+
+    assert actual == expected
+
