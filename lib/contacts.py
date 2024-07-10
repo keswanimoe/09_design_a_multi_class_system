@@ -8,6 +8,9 @@ class Contacts:
 
     def view(self):
         all = ""
-        for contact in self.contacts_list:
-                all += f"{contact.format()}\n"
-        return all.strip()
+        if len(self.contacts_list) > 0:
+            for contact in self.contacts_list:
+                    all += f"{contact.format()}\n"
+            return all.strip()
+        else:
+             return []
